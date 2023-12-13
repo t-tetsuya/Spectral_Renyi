@@ -1,0 +1,8 @@
+The main code of the estimation using spectral divergences is "Main_SpecRenyi.R".
+
+The exact simulation methods for AR1 and ARMA(p,q) processes and a spectral simulation method for stationary time series with some given spectral density function are implemented in "SimTS.R". 
+
+The spectral density functions for ARMA(p,q) processes and Brune's model and their derivatives are implemented in "SPD.R". 
+
+The gradient descent method for the PIS (Pinsker-Itakura-Saito) divergence and the spectral Renyi divergence is implemented in "SpecDiv.R".
+
